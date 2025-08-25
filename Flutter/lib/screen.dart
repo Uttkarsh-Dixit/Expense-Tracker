@@ -38,10 +38,10 @@ class HomePage extends StatelessWidget {
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('The value is $val '),
                 SizedBox(height:50),
-                FilledButton(
-                  child: Text('Second Page'),
+                OutlinedButton.icon(
+                  icon: Icon(Icons.arrow_forward),
+                  label: Text('Second Page'),
                   onPressed: () async {
                     await Navigator.push(
                         context,
@@ -53,6 +53,11 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+        },
+        child: Icon(Icons.home),
+      ),
     );
   }
 }
@@ -62,7 +67,7 @@ class SecondPage extends StatelessWidget {
   SecondPage({super.key, required this.value});
   final int value;
 
-  final List<Color> rang=[Colors.white60, Colors.black12];
+  final List<Color> rang=[Colors.purpleAccent, Colors.orangeAccent];
 
   @override
   Widget build(BuildContext context) {
@@ -81,8 +86,9 @@ class SecondPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  TextButton(
-                    child: Text('Third Page'),
+                  OutlinedButton.icon(
+                    icon: Icon(Icons.arrow_forward),
+                    label: Text('Third Page'),
                     onPressed: () async {
                       await Navigator.push(
                           context,
@@ -93,8 +99,9 @@ class SecondPage extends StatelessWidget {
                     },
                   ),
                   SizedBox(width: 50),
-                  FilledButton.tonal(
-                    child: Text('Home Page'),
+                  FilledButton.icon(
+                    icon: Icon(Icons.home_filled),
+                    label: Text('Home Page'),
                     onPressed: () async {
                       Navigator.pop(context);
                     },
@@ -105,6 +112,12 @@ class SecondPage extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          Navigator.pop(context);
+        },
+        child: Icon(Icons.home),
+      ),
     );
 
   }
@@ -114,7 +127,7 @@ class ThirdPage extends StatelessWidget {
   ThirdPage ({super.key, required this.name});
 
   final String name;
-  final List<Color> rang=[Colors.white60, Colors.black12];
+  final List<Color> rang=[Colors.grey, Colors.lightGreen];
 
   @override
   Widget build(BuildContext context) {
@@ -133,15 +146,17 @@ class ThirdPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  OutlinedButton(
-                      child: Text('Previous Page'),
+                  OutlinedButton.icon(
+                      label: Text('Previous Page'),
+                      icon: Icon(Icons.arrow_back),
                       onPressed: () async {
                         Navigator.pop(context);
                       }
                   ),
                   SizedBox(width: 50),
-                  FilledButton.tonal(
-                    child: Text('Home Page'),
+                  FilledButton.icon(
+                    icon: Icon(Icons.home_filled),
+                    label: Text('Home Page'),
                     onPressed: () async {
                       Navigator.pop(context);
                       Navigator.pop(context);
@@ -152,6 +167,13 @@ class ThirdPage extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          Navigator.pop(context);
+          Navigator.pop(context);
+        },
+        child: Icon(Icons.home),
       ),
     );
   }
