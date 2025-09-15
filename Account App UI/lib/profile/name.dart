@@ -10,29 +10,32 @@ class Name extends StatefulWidget{
 }
 
 class _NameState extends State<Name> {
-  String displayName='Uttkarsh Dixit';
+  late TextEditingController controller;
+  String displayName='Uttkarsh Dixit ';
 
   @override
   void initState() {
     super.initState();
+    controller = TextEditingController();
     _loadName();
   }
   Future<void> _saveName(String name) async{
     SharedPreferences prefs= await SharedPreferences.getInstance();
-    await prefs.setString(displayName, name);
+    await prefs.setString('displayName', name);
   }
   Future<void> _loadName() async{
     SharedPreferences prefs= await SharedPreferences.getInstance();
     String? name = prefs.getString('displayName');
     if(name!=null && name.isNotEmpty){
       setState(() {
+        controller.text= name ;
         displayName=name;
       });
     }
   }
 
   void editName (){
-    final TextEditingController controller= TextEditingController(text: displayName);
+    controller.text=displayName;
     showDialog(
         context: context,
         builder: (context){

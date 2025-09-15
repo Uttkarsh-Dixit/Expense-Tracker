@@ -17,7 +17,7 @@ class LowerStack extends StatelessWidget {
           child: Padding(padding: EdgeInsets.all(20),
             child: ListView(
               children: [
-                SizedBox(height: 420,),
+                SizedBox(height: 400,),
                 Time(),
                 SizedBox(height: 20,),
                 Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
