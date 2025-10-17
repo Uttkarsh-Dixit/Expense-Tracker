@@ -42,9 +42,10 @@ Built with **Dart**, **Flutter**, and **SQLite local storage**, it works entirel
 
 ## 📱 Screenshots
 
-| Splash | Dashboard | Add Transaction | Stats |
-|:------:|:-----------:|:----------------:|:------:|
-| <img src="screenshots/splash.png" width="200"/> | <img src="screenshots/dashboard.png" width="200"/> | <img src="screenshots/add_transaction.png" width="200"/> | <img src="screenshots/stats.png" width="200"/> |
+![home_page](https://github.com/user-attachments/assets/b3181741-c091-4640-946c-4f7e07b26b41)
+![stats2](https://github.com/user-attachments/assets/09ee9542-7a3a-487a-9332-585d54f104e7)
+![stats](https://github.com/user-attachments/assets/3ed2323c-5ad2-458d-a995-320c227d6d8c)
+
 
 > 📸 Place your screenshots in a `/screenshots` folder inside the project directory for them to appear above.
 
