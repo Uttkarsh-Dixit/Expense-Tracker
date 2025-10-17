@@ -70,7 +70,7 @@ Follow these steps to set up and run the project locally:
 ```
 
 ##  📂 Folder Structure
-	lib/
+lib/
  ┣ 📁 database_services/
  ┃ ┗ database_services.dart
  ┣ 📁 db_table/
