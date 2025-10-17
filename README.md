@@ -69,6 +69,7 @@ Follow these steps to set up and run the project locally:
 
 ```
 
+```bash
 ##  📂 Folder Structure
 lib/
  ┣ 📁 database_services/
@@ -88,6 +89,7 @@ lib/
  ┃ ┗ transactions_tile.dart
  ┗ main.dart
 
+```
 
 ## 🔮 Future Improvements
 * ☁️ Integrate cloud sync (Firebase)
