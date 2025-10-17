@@ -67,8 +67,9 @@ Follow these steps to set up and run the project locally:
 4. **Run the app**
 	flutter run
 
+```
 
- ##  📂 Folder Structure
+##  📂 Folder Structure
 	lib/
  ┣ 📁 database_services/
  ┃ ┗ database_services.dart
