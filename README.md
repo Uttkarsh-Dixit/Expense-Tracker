@@ -110,7 +110,7 @@ To contribute:
 
 
 ## 👨‍💻 Author
-Uttkarsh Dixit 📧 dixituttkarsh5@gmail.com 🔗 [Linkedin]([https://example.com](https://www.linkedin.com/in/uttkarsh-dixit/)  | [GitHub](https://github.com/uttkarsh-dixit)
+Uttkarsh Dixit 📧 dixituttkarsh5@gmail.com 🔗 [Linkedin](https://www.linkedin.com/in/uttkarsh-dixit/)  | [GitHub](https://github.com/uttkarsh-dixit)
 
 
 ⭐ If you found this project helpful, please consider giving it a star!
