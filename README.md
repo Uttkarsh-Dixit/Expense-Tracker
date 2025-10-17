@@ -42,9 +42,9 @@ Built with **Dart**, **Flutter**, and **SQLite local storage**, it works entirel
 
 ## 📱 Screenshots
 
-<img src="https://github.com/user-attachments/assets/b3181741-c091-4640-946c-4f7e07b26b41" alt="Home Page" width="400">
-<img src="https://github.com/user-attachments/assets/09ee9542-7a3a-487a-9332-585d54f104e7" alt="Stats Page 2" width="400">
-<img src="https://github.com/user-attachments/assets/3ed2323c-5ad2-458d-a995-320c227d6d8c" alt="Stats Page" width="400">
+<img src="https://github.com/user-attachments/assets/b3181741-c091-4640-946c-4f7e07b26b41" alt="Home Page" width="300">
+<img src="https://github.com/user-attachments/assets/09ee9542-7a3a-487a-9332-585d54f104e7" alt="Stats Page 2" width="250">
+<img src="https://github.com/user-attachments/assets/3ed2323c-5ad2-458d-a995-320c227d6d8c" alt="Stats Page" width="200">
 
 
 
