@@ -46,10 +46,6 @@ Built with **Dart**, **Flutter**, and **SQLite local storage**, it works entirel
 <img src="https://github.com/user-attachments/assets/09ee9542-7a3a-487a-9332-585d54f104e7" alt="Stats Page 2" width="180">
 <img src="https://github.com/user-attachments/assets/3ed2323c-5ad2-458d-a995-320c227d6d8c" alt="Stats Page" width="180">
 
-
-
-> 📸 Place your screenshots in a `/screenshots` folder inside the project directory for them to appear above.
-
 ---
 
 ## 🚀 Getting Started
